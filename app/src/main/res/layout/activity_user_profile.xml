@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".UserProfileActivity">
+
+
+    <LinearLayout
+        android:layout_width="361dp"
+        android:layout_height="804dp"
+        android:background="@drawable/back1"
+        android:backgroundTint="#A1F1A56C"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="77dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:text="My Profile"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="128dp"
+            android:layout_height="115dp"
+            android:background="@drawable/profile" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="344dp"
+            android:layout_height="50dp"
+            android:text="Nawanjana Nethmini"
+            android:textAlignment="center"
+            android:textColor="#370707"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="152dp"
+            android:layout_height="25dp"
+            android:paddingLeft="12sp"
+            android:text=" Active Status"
+            android:textAlignment="viewStart"
+            android:textColor="#370404"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/editTextAppFullame"
+            android:layout_width="294dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/input_bg"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="User Name"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.418"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.387" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="294dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/input_bg"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.418"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.487" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="294dp"
+            android:layout_height="49dp"
+            android:background="@drawable/input_bg"
+            android:drawableLeft="@drawable/ic_baseline_security_24"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.418"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextAppFullame"
+            app:layout_constraintVertical_bias="0.42" />
+
+        <EditText
+            android:id="@+id/editTextContactNo"
+            android:layout_width="294dp"
+            android:layout_height="49dp"
+            android:background="@drawable/input_bg"
+            android:drawableLeft="@android:drawable/ic_menu_call"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Contact Number"
+            android:inputType="text|phone"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.418"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextAppFullame"
+            app:layout_constraintVertical_bias="0.22" />
+
+
+        <LinearLayout
+            android:layout_width="328dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="108dp"
+            android:background="@color/colorWhite"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonHome"
+                android:layout_width="41dp"
+                android:layout_height="39dp"
+                android:layout_marginLeft="70sp"
+                android:background="@drawable/home"
+                android:backgroundTint="#19B35A18"
+                android:backgroundTintMode="add"
+                android:contentDescription="home"
+                android:paddingRight="10sp" />
+
+            <ImageButton
+                android:id="@+id/imageButtonPackage"
+                android:layout_width="41dp"
+                android:layout_height="39dp"
+                android:layout_marginLeft="30sp"
+                android:background="@drawable/widgets"
+                android:backgroundTint="#19B35A18"
+                android:backgroundTintMode="add"
+                android:contentDescription="cart"
+                android:paddingLeft="10sp" />
+
+            <ImageButton
+                android:id="@+id/imageButtonNotyfy"
+                android:layout_width="39dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="30sp"
+                android:background="@drawable/notify"
+                android:backgroundTint="#19B35A18"
+                android:backgroundTintMode="add"
+                android:contentDescription="Notyfy"
+                android:paddingLeft="10sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="textStyle" translatable="false">bold</string>
+    <string name="account1" translatable="false">Already you have an account</string>
+    <string name="register" translatable="false">Register</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="account2" translatable="false">Register for new user</string>
+    <string name="btnSignIn" translatable="false">btnSignIn</string>
+</resources>
